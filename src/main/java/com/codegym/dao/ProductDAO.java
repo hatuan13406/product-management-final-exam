@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
 
-/** Persistence contract for product CRUD. */
+/** Database operations for products. */
 public interface ProductDAO {
     List<Product> findAll() throws SQLException;
     Optional<Product> findById(int id) throws SQLException;

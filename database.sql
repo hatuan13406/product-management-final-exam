@@ -24,4 +24,5 @@ INSERT INTO products (name, price, quantity)
 SELECT 'Bàn phím cơ', 890000.00, 25
 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Bàn phím cơ');
 
+-- Kiem tra:
 -- SELECT id, name, price, quantity FROM products ORDER BY id DESC;
